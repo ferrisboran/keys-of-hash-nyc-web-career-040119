@@ -2,7 +2,7 @@ class Hash
   def keys_of(*arguments)
     arr = []
     arguments.each do |att|
-      this.each do |key, value|
+      self.each do |key, value|
         if att == value
           arr.push(key)
         end
