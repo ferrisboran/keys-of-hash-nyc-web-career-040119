@@ -3,8 +3,9 @@ class Hash
     arr = []
     arguments.each do |att|
       att.each do |key, value|
-        new.push(key)
+        arr.push(key)
       end
     end
+    return arr
   end
 end
